@@ -29,7 +29,7 @@ io.on("connection", (socket) => {
   console.log("A user has connected!");
 
   // Set the Thingspeak URL to retrieve data from
-  const url = "https://api.thingspeak.com/channels/2120838/feeds.json?results=1";
+  const url = "https://api.thingspeak.com/channels/2120838/feeds.json?results=2";
 
   // Make an HTTPS request to retrieve the data
   https.get(url, (response) => {
